@@ -1,2 +1,2 @@
 # rgl-site-backend
- Strapi Backend for rgl-site
+ Strapi Backend for rgl-site aws
