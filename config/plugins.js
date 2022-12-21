@@ -11,12 +11,9 @@ module.exports = ({ env }) => ({
         },
       },
       actionOptions: {
-        upload: {
-          ACL: null,
-        },
-        uploadStream: {
-          ACL: null,
-        },
+        upload: {},
+        uploadStream: {},
+        delete: {},
       },
     },
   },
