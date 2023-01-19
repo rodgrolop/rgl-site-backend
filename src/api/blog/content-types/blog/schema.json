@@ -64,8 +64,7 @@
       },
       "type": "uid",
       "required": true,
-      "targetField": "Title",
-      "private": true
+      "targetField": "Title"
     },
     "Categories": {
       "type": "relation",
