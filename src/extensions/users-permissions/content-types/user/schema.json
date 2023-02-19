@@ -76,6 +76,12 @@
       "relation": "oneToMany",
       "target": "api::blog.blog",
       "mappedBy": "Author"
+    },
+    "blog_likes": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::blog.blog",
+      "inversedBy": "users_likes"
     }
   }
 }
