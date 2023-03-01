@@ -128,3 +128,9 @@ dist
 
 # build folder
 build/
+
+# env
+.env.*
+
+# temp
+.tmp/
