@@ -5,5 +5,5 @@ module.exports = ({ env }) => ({
   apiToken: {
     salt: env("API_TOKEN_SALT"),
   },
-  url: `${env("SERVER_HOST", "127.0.0.1")}/dashboard`,
+  url: env("SERVER_DASHBOARD"),
 });
